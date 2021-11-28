@@ -1,0 +1,16 @@
+C:\Users\Gomi3108\source\repos\Binance\Binance\bin\Release\net5.0\appsettings.json
+C:\Users\Gomi3108\source\repos\Binance\Binance\bin\Release\net5.0\Binance.deps.json
+C:\Users\Gomi3108\source\repos\Binance\Binance\bin\Release\net5.0\Binance.dll
+C:\Users\Gomi3108\source\repos\Binance\Binance\bin\Release\net5.0\ref\Binance.dll
+C:\Users\Gomi3108\source\repos\Binance\Binance\bin\Release\net5.0\Binance.pdb
+C:\Users\Gomi3108\source\repos\Binance\Binance\obj\Release\net5.0\Binance.csprojAssemblyReference.cache
+C:\Users\Gomi3108\source\repos\Binance\Binance\obj\Release\net5.0\Binance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gomi3108\source\repos\Binance\Binance\obj\Release\net5.0\Binance.AssemblyInfoInputs.cache
+C:\Users\Gomi3108\source\repos\Binance\Binance\obj\Release\net5.0\Binance.AssemblyInfo.cs
+C:\Users\Gomi3108\source\repos\Binance\Binance\obj\Release\net5.0\Binance.csproj.CoreCompileInputs.cache
+C:\Users\Gomi3108\source\repos\Binance\Binance\obj\Release\net5.0\Binance.dll
+C:\Users\Gomi3108\source\repos\Binance\Binance\obj\Release\net5.0\ref\Binance.dll
+C:\Users\Gomi3108\source\repos\Binance\Binance\obj\Release\net5.0\Binance.pdb
+C:\Users\Gomi3108\source\repos\Binance\Binance\bin\Release\net5.0\Binance.runtimeconfig.json
+C:\Users\Gomi3108\source\repos\Binance\Binance\bin\Release\net5.0\Binance.runtimeconfig.dev.json
+C:\Users\Gomi3108\source\repos\Binance\Binance\obj\Release\net5.0\Binance.genruntimeconfig.cache
