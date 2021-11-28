@@ -1,7 +1,7 @@
 USE [Binance]
 GO
 
-/****** Object:  StoredProcedure [dbo].[BuyCrypto]    Script Date: 11/28/2021 2:59:51 PM ******/
+/****** Object:  StoredProcedure [dbo].[BuyCrypto]    Script Date: 11/28/2021 3:43:31 PM ******/
 SET ANSI_NULLS ON
 GO
 
@@ -23,7 +23,7 @@ BEGIN
 	DECLARE @TEMPLATE AS VARCHAR(1000) = 
 	'{
 		"symbol": "@SYMBOL",
-		"amount": 11000001
+		"amount": 11
 	},';
 	DECLARE @REQ AS VARCHAR(2000) = '';
 
@@ -31,6 +31,11 @@ BEGIN
 	DECLARE @SYMBOL_ERROR AS VARCHAR(200);
 	DECLARE @RESPONSE_SYMBOL AS VARCHAR(100);
 	DECLARE @RESPONSE_AMOUNT AS DECIMAL(20,8);
+
+	IF @SYMBOLS IS NULL
+		BEGIN
+			RETURN;
+		END
 
 	DECLARE SYMBOLS_CURSOR CURSOR FOR 
 	SELECT VALUE FROM STRING_SPLIT(@SYMBOLS, ','); 
