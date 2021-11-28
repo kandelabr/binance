@@ -8,6 +8,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
+using System.Linq;
 using System.Threading;
 
 namespace BinanceHost
@@ -32,7 +33,10 @@ namespace BinanceHost
         public static IHostBuilder CreateHostBuilder(string[] args)
         {
             var host = CreateHost(args);
-            host.UseWindowsService();
+            if (!args.Any(x => x == "console=true"))
+            {
+                host.UseWindowsService();
+            }
             return host;
         }
         private static IHostBuilder CreateHost(string[] args)

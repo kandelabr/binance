@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "BinanceHost": {
+      "commandName": "Project",
+      "commandLineArgs": "console=true"
+    }
+  }
+}
