@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gomi3108\\Source\\Repos\\BinanceRepo\\Binance\\Binance.csproj": {}
+    "C:\\Users\\Gomi3108\\source\\repos\\BinanceRepo\\Binance\\Binance.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gomi3108\\Source\\Repos\\BinanceRepo\\Binance\\Binance.csproj": {
+    "C:\\Users\\Gomi3108\\source\\repos\\BinanceRepo\\Binance\\Binance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gomi3108\\Source\\Repos\\BinanceRepo\\Binance\\Binance.csproj",
+        "projectUniqueName": "C:\\Users\\Gomi3108\\source\\repos\\BinanceRepo\\Binance\\Binance.csproj",
         "projectName": "Binance",
-        "projectPath": "C:\\Users\\Gomi3108\\Source\\Repos\\BinanceRepo\\Binance\\Binance.csproj",
+        "projectPath": "C:\\Users\\Gomi3108\\source\\repos\\BinanceRepo\\Binance\\Binance.csproj",
         "packagesPath": "C:\\Users\\Gomi3108\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gomi3108\\Source\\Repos\\BinanceRepo\\Binance\\obj\\",
+        "outputPath": "C:\\Users\\Gomi3108\\source\\repos\\BinanceRepo\\Binance\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -89,6 +89,11 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
         }
       }
     }

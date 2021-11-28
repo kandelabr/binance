@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gomi3108\\Source\\Repos\\BinanceRepo\\BinanceHost\\BinanceHost.csproj": {}
+    "C:\\Users\\Gomi3108\\source\\repos\\BinanceRepo\\BinanceHost\\BinanceHost.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gomi3108\\Source\\Repos\\BinanceRepo\\BinanceHost\\BinanceHost.csproj": {
+    "C:\\Users\\Gomi3108\\source\\repos\\BinanceRepo\\BinanceHost\\BinanceHost.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gomi3108\\Source\\Repos\\BinanceRepo\\BinanceHost\\BinanceHost.csproj",
+        "projectUniqueName": "C:\\Users\\Gomi3108\\source\\repos\\BinanceRepo\\BinanceHost\\BinanceHost.csproj",
         "projectName": "BinanceHost",
-        "projectPath": "C:\\Users\\Gomi3108\\Source\\Repos\\BinanceRepo\\BinanceHost\\BinanceHost.csproj",
+        "projectPath": "C:\\Users\\Gomi3108\\source\\repos\\BinanceRepo\\BinanceHost\\BinanceHost.csproj",
         "packagesPath": "C:\\Users\\Gomi3108\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gomi3108\\Source\\Repos\\BinanceRepo\\BinanceHost\\obj\\",
+        "outputPath": "C:\\Users\\Gomi3108\\source\\repos\\BinanceRepo\\BinanceHost\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,8 +31,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Gomi3108\\Source\\Repos\\BinanceRepo\\Binance\\Binance.csproj": {
-                "projectPath": "C:\\Users\\Gomi3108\\Source\\Repos\\BinanceRepo\\Binance\\Binance.csproj"
+              "C:\\Users\\Gomi3108\\source\\repos\\BinanceRepo\\Binance\\Binance.csproj": {
+                "projectPath": "C:\\Users\\Gomi3108\\source\\repos\\BinanceRepo\\Binance\\Binance.csproj"
               }
             }
           }
@@ -62,26 +62,42 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.aspNetCore.App": {
-              "privateAssets": "none"
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[5.0.3, 5.0.3]"
             },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[5.0.3, 5.0.3]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[5.0.3, 5.0.3]"
+            }
+          ],
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
       }
     },
-    "C:\\Users\\Gomi3108\\Source\\Repos\\BinanceRepo\\Binance\\Binance.csproj": {
+    "C:\\Users\\Gomi3108\\source\\repos\\BinanceRepo\\Binance\\Binance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gomi3108\\Source\\Repos\\BinanceRepo\\Binance\\Binance.csproj",
+        "projectUniqueName": "C:\\Users\\Gomi3108\\source\\repos\\BinanceRepo\\Binance\\Binance.csproj",
         "projectName": "Binance",
-        "projectPath": "C:\\Users\\Gomi3108\\Source\\Repos\\BinanceRepo\\Binance\\Binance.csproj",
+        "projectPath": "C:\\Users\\Gomi3108\\source\\repos\\BinanceRepo\\Binance\\Binance.csproj",
         "packagesPath": "C:\\Users\\Gomi3108\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gomi3108\\Source\\Repos\\BinanceRepo\\Binance\\obj\\",
+        "outputPath": "C:\\Users\\Gomi3108\\source\\repos\\BinanceRepo\\Binance\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -159,6 +175,11 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
         }
       }
     }
