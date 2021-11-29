@@ -38,7 +38,8 @@ namespace Binance.Service
 
                     var data = await _binanceClient.GetPrices().ConfigureAwait(false);
                     var response = data.Select(x => new PriceBatchData() { Symbol = x.Values.ElementAt(0), Price = decimal.Parse(x.Values.ElementAt(1)) })
-                                    .Where(y => y.Symbol.EndsWith("USDT"))
+                                    .Where(y => y.Symbol.EndsWith("DOWNUSDT"))
+                                    .Where(y => y.Symbol.EndsWith("UPUSDT"))
                                     .OrderBy(y => y.Symbol).ToList();
 
                     _databaseProvider.HandleBatch(response);
