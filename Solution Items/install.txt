@@ -6,3 +6,6 @@ sc create TestService BinPath=C:\full\path\to\publish\dir\WindowsServiceExample.
 
 2. remove service
 sc delete TestService
+
+3. add log
+New-EventLog -LogName BinanceLog -Source BinanceLog
