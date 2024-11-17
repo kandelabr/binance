@@ -28,8 +28,6 @@ namespace Binance.Service
         {
             while (!stoppingToken.IsCancellationRequested)
             {
-                //await StartProcess(stoppingToken).ConfigureAwait(false);
-
                 try
                 {
 
@@ -38,8 +36,11 @@ namespace Binance.Service
 
                     var data = await _binanceClient.GetPrices().ConfigureAwait(false);
                     var response = data.Select(x => new PriceBatchData() { Symbol = x.Values.ElementAt(0), Price = decimal.Parse(x.Values.ElementAt(1)) })
-                                    .Where(y => y.Symbol.EndsWith("DOWNUSDT"))
-                                    .Where(y => y.Symbol.EndsWith("UPUSDT"))
+                                    .Where(y => y.Symbol.EndsWith("USDT"))
+                                    .Where(y => !y.Symbol.EndsWith("DOWNUSDT"))
+                                    .Where(y => !y.Symbol.EndsWith("UPUSDT"))
+                                    .Where(y => y.Symbol != "SHIBUSDT")
+                                    .Where(y => y.Symbol != "BNBUSDT")
                                     .OrderBy(y => y.Symbol).ToList();
 
                     _databaseProvider.HandleBatch(response);
@@ -49,18 +50,6 @@ namespace Binance.Service
                     await Task.Delay((int)(10000 - stopwatch.ElapsedMilliseconds > 0 ? 10000 - stopwatch.ElapsedMilliseconds : 0), stoppingToken);
                 }
                 catch (Exception ex) { _logger.LogError(ex, "Error in batch process"); }
-            }
-        }
-
-        private async Task StartProcess(CancellationToken stoppingToken)
-        {
-            if (!ExchangeInfoStartupTask.ReadyToStart())
-            {
-                // Load all tasks from DI
-                var startupTask = new ExchangeInfoStartupTask(_binanceClient);
-
-                // Execute all the tasks
-                await startupTask.ExecuteAsync(stoppingToken).ConfigureAwait(false);
             }
         }
     }

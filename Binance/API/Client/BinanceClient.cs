@@ -46,7 +46,7 @@ namespace Binance.API.Client
             catch (Exception ex)
             {
                 _logger.LogError(ex, $"Buy failed for symbol {request.Symbol}");
-                SendEmail($"HIGH buy failed: {request.GetUnsecureParamsString()}", ex);
+                //SendEmail($"HIGH buy failed: {request.GetUnsecureParamsString()}", ex);
                 return default;
             }
         }

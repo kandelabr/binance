@@ -2,6 +2,7 @@
 using Binance.DB.Models;
 using Binance.Handlers;
 using Binance.Models;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -48,10 +49,10 @@ namespace Binance.DB
                     context.SaveChanges();
                 }
 
-                //using (var context = new BinanceContext())
-                //{
-                //    context.Database.ExecuteSqlRaw("exec [dbo].[ProcessBatch]");
-                //}
+                using (var context = new BinanceContext())
+                {
+                    context.Database.ExecuteSqlRaw("exec [dbo].[ProcessBatch]");
+                }
             }
 
             catch (Exception ex)

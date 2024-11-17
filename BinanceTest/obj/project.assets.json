@@ -8117,23 +8117,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Gomi3108\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Goran\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gomi3108\\Source\\Repos\\BinanceRepo\\BinanceTest\\BinanceTest.csproj",
+      "projectUniqueName": "C:\\Users\\Goran\\Source\\Repos\\BinanceRepo\\BinanceTest\\BinanceTest.csproj",
       "projectName": "BinanceTest",
-      "projectPath": "C:\\Users\\Gomi3108\\Source\\Repos\\BinanceRepo\\BinanceTest\\BinanceTest.csproj",
-      "packagesPath": "C:\\Users\\Gomi3108\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gomi3108\\Source\\Repos\\BinanceRepo\\BinanceTest\\obj\\",
+      "projectPath": "C:\\Users\\Goran\\Source\\Repos\\BinanceRepo\\BinanceTest\\BinanceTest.csproj",
+      "packagesPath": "C:\\Users\\Goran\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Goran\\Source\\Repos\\BinanceRepo\\BinanceTest\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Gomi3108\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Goran\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8147,8 +8143,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Gomi3108\\Source\\Repos\\BinanceRepo\\Binance\\Binance.csproj": {
-              "projectPath": "C:\\Users\\Gomi3108\\Source\\Repos\\BinanceRepo\\Binance\\Binance.csproj"
+            "C:\\Users\\Goran\\Source\\Repos\\BinanceRepo\\Binance\\Binance.csproj": {
+              "projectPath": "C:\\Users\\Goran\\Source\\Repos\\BinanceRepo\\Binance\\Binance.csproj"
             }
           }
         }
@@ -8191,14 +8187,11 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.aspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gomi3108\\source\\repos\\BinanceRepo\\Binance\\Binance.csproj": {}
+    "C:\\Users\\Goran\\source\\repos\\BinanceRepo\\Binance\\Binance.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gomi3108\\source\\repos\\BinanceRepo\\Binance\\Binance.csproj": {
+    "C:\\Users\\Goran\\source\\repos\\BinanceRepo\\Binance\\Binance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gomi3108\\source\\repos\\BinanceRepo\\Binance\\Binance.csproj",
+        "projectUniqueName": "C:\\Users\\Goran\\source\\repos\\BinanceRepo\\Binance\\Binance.csproj",
         "projectName": "Binance",
-        "projectPath": "C:\\Users\\Gomi3108\\source\\repos\\BinanceRepo\\Binance\\Binance.csproj",
-        "packagesPath": "C:\\Users\\Gomi3108\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gomi3108\\source\\repos\\BinanceRepo\\Binance\\obj\\",
+        "projectPath": "C:\\Users\\Goran\\source\\repos\\BinanceRepo\\Binance\\Binance.csproj",
+        "packagesPath": "C:\\Users\\Goran\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Goran\\source\\repos\\BinanceRepo\\Binance\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Gomi3108\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Goran\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -88,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
